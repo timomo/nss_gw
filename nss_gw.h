@@ -14,6 +14,7 @@
 #include <string.h>
 #include <curl/curl.h>
 #include <nss.h>
+#include <errno.h>
 
 enum nss_status _nss_gw_setpwent(void);
 enum nss_status _nss_gw_endpwent(void);
